@@ -22,5 +22,6 @@ public class PlayerMovement : MonoBehaviour
 
         playerAnimator.SetFloat("inputHorizontal", playerBody.velocity.x);
         playerAnimator.SetFloat("inputVertical", playerBody.velocity.y);
+
     }
 }
