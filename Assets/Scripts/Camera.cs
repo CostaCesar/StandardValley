@@ -6,7 +6,7 @@ public class Camera : MonoBehaviour
 {
     public Transform target;
     
-    void Update()
+    void LateUpdate()
     {
         transform.position =  new Vector3(
             target.transform.position.x,
