@@ -428,7 +428,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 497233256}
-  cameraSmooth: -0.005
+  minPosition: {x: -20, y: -14}
+  maxPosition: {x: 21, y: 14}
+  cameraSmooth: 0.005
 --- !u!1 &695006542
 GameObject:
   m_ObjectHideFlags: 0
