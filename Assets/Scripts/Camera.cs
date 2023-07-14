@@ -5,8 +5,8 @@ using UnityEngine;
 public class Camera : MonoBehaviour
 {
     public Transform target;
-    [SerializeField] private Vector2 minPosition;
-    [SerializeField] private Vector2 maxPosition;
+    public Vector2 minPosition;
+    public Vector2 maxPosition;
     [SerializeField] private float cameraSmooth;
     
     void LateUpdate()
